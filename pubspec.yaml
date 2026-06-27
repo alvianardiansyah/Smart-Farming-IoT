@@ -1,0 +1,33 @@
+name: smart_farming_iot
+description: Aplikasi Smart Farming IoT untuk Monitoring Tanaman Seledri
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # FIREBASE PACKAGES
+  firebase_core: ^2.30.0
+  firebase_database: ^10.4.1
+  # UTILITY
+  provider: ^6.1.2
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: 0.14.4
+
+flutter:
+  uses-material-design: true
+  
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/app_icon.png"
